@@ -1,4 +1,4 @@
 /.vscode
 /user
 /__pycache__
-/data/binaryDatabaseCache.bin
+data/binaryDatabaseCache.bin

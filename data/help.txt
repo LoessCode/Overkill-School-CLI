@@ -17,7 +17,7 @@ BINARY FILE COMMANDS
     $ create //Creates new Binary Database
         -p <filepath>
         -n <name>
-    $ addcolumn //Adds a new column to Binary Database
+    $ addcolumn //Adds a new column to Binary Database (Will cause issues if there is existing data)
         -n <DBName>
         -h <columnname>
         -t <type>
@@ -26,3 +26,5 @@ BINARY FILE COMMANDS
         -n <DBName>
         -v <values> 
         //Example: $insertdata -n demo -v John, 16, USA
+
+    $ showall //Shows all records
