@@ -1,0 +1,28 @@
+APPLICATION COMMANDS
+    $ help //Opens this menu
+    $ quit //Exits the application
+
+TEXT FILE COMMANDS
+    $ read //Reads and displays file content
+        -p <filepath>
+        -m <modifier> //Optional: none, reverse
+    
+    $ copyfromfile //Copies data from one file to another
+        -p <originfilepath>
+        -d <destinationfilepath>
+        -a //Optional: Appends to new file instead of truncating
+        -m <modifier> //Optional: none, flipcase
+
+BINARY FILE COMMANDS
+    $ create //Creates new Binary Database
+        -p <filepath>
+        -n <name>
+    $ addcolumn //Adds a new column to Binary Database
+        -n <DBName>
+        -h <columnname>
+        -t <type>
+
+    $ insertdata //Inserts a value into DB
+        -n <DBName>
+        -v <values> 
+        //Example: $insertdata -n demo -v John, 16, USA

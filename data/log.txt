@@ -1,0 +1,3 @@
+<INFO @ 2024-11-11 22:14:35.545539> Running binary interface
+<INFO @ 2024-11-11 22:14:56.656792> Missing argument -n for db name or invalid db name
+<INFO @ 2024-11-11 22:15:02.416364> Missing argument -n for db name or invalid db name
