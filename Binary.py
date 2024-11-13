@@ -50,6 +50,11 @@ class BinaryDatabase:
                 with open(self.dbPath, "ab") as binaryDBFile:
                     import pickle;
                     pickle.dump(writeData, binaryDBFile);
+                    
+                import Log;
+                Log.console_message(
+                    f"Inserted Record: {writeData}"
+                );
                 
             else:
                 import Log;
